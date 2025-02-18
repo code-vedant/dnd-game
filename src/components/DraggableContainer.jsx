@@ -1,5 +1,5 @@
 import { useDrop } from "react-dnd";
-import DraggableItem from "./DraggableItem";
+import DraggableItem from "./DraggableItem.jsx";
 
 const DraggableContainer = ({ type, onDrop, items }) => {
   const [{ isOver }, drop] = useDrop(() => ({

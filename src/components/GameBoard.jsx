@@ -3,9 +3,9 @@ import { DndProvider } from "react-dnd";
 import { TouchBackend } from "react-dnd-touch-backend";
 import { HTML5Backend } from "react-dnd-html5-backend";
 import { isMobile } from "react-device-detect";
-import DraggableItem from "./DraggableItem";
-import DraggableContainer from "./DraggableContainer";
-import DropArea from "./DropArea";
+import DraggableItem from "./DraggableItem.jsx";
+import DraggableContainer from "./DraggableContainer.jsx";
+import DropArea from "./DropArea.jsx";
 import itemsData from "../data/itemsData.json";
 
 const getRandomItems = (num) => {
